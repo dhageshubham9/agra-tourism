@@ -1,0 +1,163 @@
+* 
+{
+	box-sizing: border-box;
+	margin: 0px;
+	
+	padding: 0px;
+	font-family: 'Times New Roman', Times, serif;
+}
+		.container
+		{
+			background-color:lightgrey;
+			padding: 6px;
+			border: 1px solid black;
+		}
+
+		.head
+		{
+			padding: 10PX;
+			background-color:lightblue;		
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+		img
+		{
+			width: 200px;
+			height: 200px;
+			box-sizing: border-box;
+			padding: 10px;
+		}
+		.main_content
+		{
+			display: flex;
+		}
+		.subdiv1
+		{
+			width: 235px;
+			height: 600px;
+			margin: 5px;
+			padding: 2px;
+			background-color: lightblue;
+		}
+		#subdiv2
+		{
+			
+			margin: 5px;
+			padding: 2px;
+			flex: 1;
+			background-color: deepskyblue;
+			text-align: justify;
+			padding: 45px;
+		}
+		.logo
+		{
+			width: 200px;
+			height: 200px;
+		}
+		.title
+		{
+			flex: 1;
+			border: 4px dotted grey;
+			padding-top: 28px;
+		}
+		.nevigation
+		{
+			height: 50px;
+			background-color: skyblue;
+			margin-top:6px ;
+			margin-bottom: 6px;
+		}
+		.nevigation ul
+		{
+			list-style: none;
+			padding-left: 350px;
+			display: flex;
+			margin-top: 10px;
+		}
+		.nevigation ul li
+		{
+			padding: 5px;
+			margin: 2px;
+			border: 2px solid brown;
+		}
+		.nevigation ul li:hover
+		{
+			background-color: lightgrey;
+		}
+		.nevigation ul li a
+		{
+			text-decoration: none;
+			color: black;
+			font-family: cursive;
+		}
+		.view
+		{
+			border: 1px solid red;
+			background-color: red;
+			color: white;
+			width: 180px;
+			height: 40px;
+			font-size: 28px;
+		}
+		.img
+		{
+			float: left;
+		}
+		p
+		{
+			color: ghostwhite;
+			font-family: unset;
+			font-size: 25px;
+			padding: 8px;
+		}
+#contactus input:hover,textarea:hover
+{
+	background-color: rgb(72, 211, 77);
+}
+.gallery-wrap {
+	width: 100%;
+	padding: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.gallery-box {
+	flex: 0 0 calc(20% - 30%);
+	margin: 15px;
+}
+
+.gallery-box img {
+	max-width: 100%;
+	min-width: 100%;
+}
+
+#project {
+	background-color: #ededed;
+}
+
+.gallery {
+	margin: 10px 50px;
+	
+}
+
+.gallery img {
+	height: 200px;
+	width: 200px;
+	margin: 5px;
+	filter: grayscale(80%);
+	transition: 1s;
+}
+
+.gallery img:hover {
+	filter: grayscale(0%);
+	transform: scale(1.1);
+}
+#subdiv3 h4 {
+	color: brown;
+}
+#subdiv3 h5 {
+	color: darkred;
+}
